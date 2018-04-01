@@ -86,13 +86,9 @@ class TicTacToe
     end 
     
     def full?
-      counter = 0;
       @board.any do |spot|
         @board[spot] == " " |
-        counter+=1
       end 
-    end 
-    if 
     end 
 
   
