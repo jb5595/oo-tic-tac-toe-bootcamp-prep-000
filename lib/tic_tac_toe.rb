@@ -29,5 +29,7 @@ class TicTacToe
       index = input.to_i
       return index-1
     end 
+    
+    def move (index, token = "X")
   
 end 
