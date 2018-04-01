@@ -30,9 +30,11 @@ class TicTacToe
       return index-1
     end 
     
+    
     def move (index, token = "X")
       @board[index] = token
     end 
+    
     
     def position_taken?(index)
       if @board[index] == " "
