@@ -87,7 +87,7 @@ class TicTacToe
     
     def full?
       @board.any do |spot|
-        @board[spot] == " " |
+        @board[spot] == " " 
       end 
     end 
 
