@@ -96,6 +96,14 @@ class TicTacToe
         spot == "X" || spot == "O"
       end 
     end 
+    
+    def draw?
+      if won? || !full?
+        return false
+      else 
+        return true
+    
+        
 
   
 end 
