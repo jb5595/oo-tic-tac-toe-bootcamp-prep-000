@@ -125,6 +125,7 @@ class TicTacToe
     until over?
     turn
     end 
+  end 
 #     if won?
 #       puts "Congratulations #{winner}"
 #     else if draw?
