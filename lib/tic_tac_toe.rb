@@ -122,16 +122,11 @@ class TicTacToe
     end 
     
     def play
-    turn
-    end 
-  end 
-#     if won?
-#       puts "Congratulations #{winner}"
-#     else if draw?
-#       puts "Cats game!"
-#     end 
-#   end 
-# end
+      count = 1
+      until over
+      turn
+      puts
+ 
         
 
   
