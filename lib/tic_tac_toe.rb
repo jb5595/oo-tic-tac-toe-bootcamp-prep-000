@@ -122,10 +122,11 @@ class TicTacToe
     end 
     
     def play
-      count = 1
+      count = 0
       until over
       turn
-      puts
+      count+=1
+      puts count
  
         
 
