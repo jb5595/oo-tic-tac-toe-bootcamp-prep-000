@@ -89,6 +89,7 @@ class TicTacToe
       @board.any do |spot|
         @board[spot] == " " 
       end 
+      return true
     end 
 
   
