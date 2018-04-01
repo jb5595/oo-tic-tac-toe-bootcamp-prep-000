@@ -113,6 +113,11 @@ class TicTacToe
       end 
     end 
     
+    def winner
+      if won?
+        
+      else 
+        return nil
         
 
   
