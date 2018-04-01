@@ -127,6 +127,8 @@ class TicTacToe
       turn
       count+=1
       puts count
+    end 
+  end 
  
         
 
