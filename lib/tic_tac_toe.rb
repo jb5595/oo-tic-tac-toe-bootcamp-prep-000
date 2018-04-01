@@ -86,10 +86,10 @@ class TicTacToe
     end 
     
     def full?
-      @board.any do |spot|
+      @board.any? do |spot|
         @board[spot] == " " 
       end 
-      return true
+      return false
     end 
 
   
