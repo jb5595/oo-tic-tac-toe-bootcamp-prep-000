@@ -123,7 +123,7 @@ class TicTacToe
     
     def play
       count = 0
-      until over? == true
+      until over? 
       turn
       count+=1
       puts count
