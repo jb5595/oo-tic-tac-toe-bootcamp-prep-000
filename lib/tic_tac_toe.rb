@@ -120,6 +120,16 @@ class TicTacToe
         return nil
       end 
     end 
+    
+    def play
+     until over?
+     turn
+    end 
+    if won?
+      puts "Congratulations #{winner}"
+    else if draw?
+      puts "Cats game!"
+  end 
         
 
   
